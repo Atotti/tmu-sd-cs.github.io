@@ -54,12 +54,7 @@ jobs:
       - name: Install html-proofer
         run: gem install html-proofer
       - name: Run html-proofer
-        run: |
-          htmlproofer \
-            --only-4xx \
-            --allow-hash-href \
-            --verbose \
-            _site
+        run: htmlproofer ./_site
 
 
 
