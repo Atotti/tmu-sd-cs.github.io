@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h1 class="nav2">{{ page.staff_name }} 研究室</h1>
+<section>
+  <h2 class="mt0">{{ page.staff_name }} {{ page.staff_title }}</h2>
+  <div class="lab">
+    <figure><img src="/image/{{ page.staff_image }}" alt="{{ page.staff_name }} {{ page.staff_title }}"></figure>
+    <div>
+      <p class="mt20 mt05sp"><strong>{{ page.specialties | join: "/" }}</strong></p>
+      <p class="mt20 mt05sp">{{ page.description }}</p>
+      {% if page.links.size > 0 %}
+      <ul>
+        {% for link in page.links %}
+          <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+
+  {{ content }}
+
+  <p class="right"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}staff.html">{{ site.data.i18n[page.lang].common.back_to_staff }}</a></p>
+</section>
