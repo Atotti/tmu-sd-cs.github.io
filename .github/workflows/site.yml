@@ -54,7 +54,12 @@ jobs:
       - name: Install html-proofer
         run: gem install html-proofer
       - name: Run html-proofer
-        run: htmlproofer ./_site
+        run: |
+          ls -la
+          echo "xxxx"
+          cd ..
+          ls -la
+          htmlproofer ./_site
 
 
 
