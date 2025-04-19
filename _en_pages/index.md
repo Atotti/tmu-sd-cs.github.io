@@ -8,16 +8,14 @@ lang: "en"
 <section id="news">
   <h2>News &amp; Topics</h2>
   <ul>
-    <li><span class="date">2020.6.5</span><br>
-Information regarding our response to the novel coronavirus (COVID-19) can be found
-<a href="https://www.tmu.ac.jp/news/topics/24000.html">here</a>.
-<br>
+    {% for news_item in site.en_news reversed %}
+      <li>
+        <span class="date">{{ news_item.date | date: "%Y.%-m.%-d" }}</span><br>
+        {{ news_item.content }}
+      </li>
+    {% endfor %}
 
-    <li><span class="date">2020.4.1</span><br>
-Our university has changed its name to Tokyo Metropolitan University. (<a href="https://www.tmu.ac.jp/news/topics/about_rename.html">Reference</a>)&nbsp;&nbsp;
-We have also published our English pages. Please click EN in the upper right.
-<br>
-
+    <!-- Existing news (not yet converted to markdown) -->
     <li><span class="date">2020.3.25</span><br>
 To prevent the spread of the novel coronavirus, the start of classes for the new semester is scheduled for May 11.
 <a href="https://www.tmu.ac.jp/extra/download.html?d=assets/files/download/news/20200325_2.pdf">Please see here.</a>

@@ -7,17 +7,14 @@ copyright_year: 2020
 <section id="news">
   <h2>News &amp; Topics</h2>
   <ul>
-    <li><span class="date">2020.6.5</span><br>
-新型コロナウイルス感染症に関連する対応について，
-<a href="https://www.tmu.ac.jp/news/topics/24000.html">こちらに</a>&nbsp;
-まとめてお知らせします．
-<br>
+    {% for news_item in site.news reversed %}
+      <li>
+        <span class="date">{{ news_item.date | date: "%Y.%-m.%-d" }}</span><br>
+        {{ news_item.content }}
+      </li>
+    {% endfor %}
 
-    <li><span class="date">2020.4.1</span><br>
-本学は，東京都立大学 に名称変更いたしました．(<a href="https://www.tmu.ac.jp/news/topics/about_rename.html">ご参考</a>)&nbsp;&nbsp;
-英語ページも公開しましたのでご覧ください．右上のENをクリックしてください．
-<br>
-
+    <!-- 既存のニュース（まだマークダウン化していないもの） -->
     <li><span class="date">2020.3.25</span><br>
 新型コロナウィルスの感染拡大抑制のため，新学期の授業開始は5月11日を予定することになりました．
 <a href="https://www.tmu.ac.jp/extra/download.html?d=assets/files/download/news/20200325_2.pdf">こちらをご覧ください．</a>

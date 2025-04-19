@@ -21,6 +21,12 @@ collections:
   en_staff:
     output: true
     permalink: /en/staff/:name.html
+  news:
+    output: false
+    sort_by: date
+  en_news:
+    output: false
+    sort_by: date
 
 # Defaults
 defaults:
@@ -47,4 +53,14 @@ defaults:
       type: "en_staff"
     values:
       layout: "staff_member"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      lang: "ja"
+  - scope:
+      path: ""
+      type: "en_news"
+    values:
       lang: "en"
