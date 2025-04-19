@@ -2,21 +2,18 @@
 
 nav:
   home: "Home"
-  about: "About"
-  staff: "Faculty"
+  about: "What's CS"
+  staff: "Faculties"
   curriculum: "Courses"
   admission: "Admissions"
-  way: "Careers"
   faq: "FAQ"
   access: "Access"
 
 titles:
   about: "About"
-  staff: "Faculty"
+  staff: "Faculties"
   curriculum: "Courses"
   admission: "Admissions"
-  admission_office: "Admission Office"
-  way: "Careers"
   faq: "FAQ"
   access: "Access"
 

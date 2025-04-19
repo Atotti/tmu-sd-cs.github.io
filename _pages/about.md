@@ -2,8 +2,6 @@
 layout: default
 title: "情報科学科とは"
 copyright_year: 2020
-lang: "ja"
-ref: "about"
 ---
 
 <h1 class="nav1">情報科学科とは</h1>

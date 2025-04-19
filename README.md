@@ -78,7 +78,6 @@
 
 - Ruby 2.5.0以上
 - RubyGems
-- GCC、Make（Unixシステムの場合）
 
 ### インストール手順
 

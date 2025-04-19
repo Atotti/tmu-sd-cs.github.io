@@ -10,12 +10,12 @@
         {% if page.ref %}
           {% assign pages=site.pages | where:"ref", page.ref | where_exp:"p", "p.lang != page.lang" %}
           {% for p in pages %}
-            <a href="{{ p.url }}"><img src="/image/lang.png" alt="JP/EN"></a>
+            <a href="{{ p.url }}"><img src="{% if page.lang == 'en' %}../{% else %}/{% endif %}image/lang.png" alt="JP/EN"></a>
           {% endfor %}
         {% else %}
-          <a href="{% if page.lang == 'en' %}/{% else %}/en/{% endif %}index.html"><img src="/image/lang.png" alt="JP/EN"></a>
+          <a href="{% if page.lang == 'en' %}/{% else %}/en/{% endif %}index.html"><img src="{% if page.lang == 'en' %}../{% else %}/{% endif %}image/lang.png" alt="JP/EN"></a>
         {% endif %}
       </div>
     </div>
-    <h1><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}index.html"><img src="/image/toptitle_2020.jpg" alt="東京都立大学 システムデザイン学部 情報科学科 / 東京都立大学大学院 システムデザイン研究科 システムデザイン専攻 情報科学域"></a></h1>
+    <h1><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}index.html"><img src="{% if page.lang == 'en' %}../{% else %}/{% endif %}image/toptitle_2020.jpg" alt="東京都立大学 システムデザイン学部 情報科学科 / 東京都立大学大学院 システムデザイン研究科 システムデザイン専攻 情報科学域"></a></h1>
   </header>

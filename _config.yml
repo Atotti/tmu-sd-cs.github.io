@@ -1,5 +1,5 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 title: "東京都立大学 システムデザイン学部 情報科学科 / 東京都立大学大学院 システムデザイン研究科 システムデザイン専攻 情報科学域"
 encoding: "utf-8"
 

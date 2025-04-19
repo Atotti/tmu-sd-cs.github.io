@@ -3,26 +3,21 @@ layout: default
 title: "Access"
 copyright_year: 2020
 lang: "en"
-ref: "access"
 ---
 
 <h1 class="nav7">Access</h1>
 <section>
-  <h2 class="mt0">Hino Campus*</h2>
-  <p>6-6 Asahigaoka, Hino-shi, Tokyo, 191-0065, Japan<br>
-    Tel +81-42-585-8606</p>
+  <h2 class="mt0">Address</h2>
+  <p>6-6 Asahigaoka, Hino-shi, Tokyo, Japan 191-0065</p>
+</section>
+<section>
+  <h2>Transport access to Hino Campus</h2>
+  <h3 class="mt0">From Narita Airport to Toyoda Station</h3>
+  <p>Narita Airport St.→&lt;JR Narita Express / 53min.&gt;→Tokyo St.→&lt;JR Chuo Line / Rapid train / 48min.&gt;→Toyoda St.</p>
+  <h3>From Haneda Airport to Toyoda Station</h3>
+  <p>Haneda Airport St.→&lt;Tokyo Monorail / 23min.&gt;→Hamamatsucho St.→&lt;JR Keihintohoku Line / 6min.&gt;→Tokyo St.→&lt;JR Chuo Line / Rapid train / 48min.&gt;→Toyoda St.</p>
+  <figure class="center w60"><img src="/image/map.en.png" alt="Map"></figure>
   <ul>
-    <li>About 20 minutes on foot from JR Chuo Line "Toyoda" Station (North Exit).<br>
-      Or take the Keio Bus "Hirayama Industrial Park Loop" and get off at<br>
-      "Asahigaoka Central Park," then walk about 5 minutes.</li>
-    <li>From JR Chuo Line "Hachioji" Station (North Exit) or Keio Line "Keio-Hachioji" Station (West Exit),<br>
-      take the Keio Bus bound for "Hino Station" or "Toyoda Station North Exit,"<br>
-      get off at "Owada-sakaue," then walk about 10 minutes.</li>
-    <li>About 15 minutes on foot from JR Hachiko Line "Kita-Hachioji" Station.</li>
-  </ul>
-  <p>*First and second-year undergraduate students attend the Minami-Osawa Campus.</p>
-  <figure class="w70 "><img src="/image/map.png" alt=""></figure>
-  <ul>
-    <li><a href="https://goo.gl/maps/9SF6fXR8W5T2" target="_blank" rel="noopener">View on Google Maps</a></li>
+    <li><a href="https://www.sd.tmu.ac.jp/english/access.html" target="_blank" rel="noopener">https://www.sd.tmu.ac.jp/english/access.html</a></li>
   </ul>
 </section>

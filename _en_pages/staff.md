@@ -3,7 +3,6 @@ layout: default
 title: "Faculty"
 copyright_year: 2020
 lang: "en"
-ref: "staff"
 ---
 
 <h1 class="nav2">Faculty</h1>
