@@ -10,10 +10,10 @@
         {% if page.ref %}
           {% assign pages=site.pages | where:"ref", page.ref | where_exp:"p", "p.lang != page.lang" %}
           {% for p in pages %}
-            <a href="{{ p.url }}"><img src="{% if page.lang == 'en' %}../{% else %}{{ site.baseurl }}/{% endif %}image/lang.png" alt="JP/EN"></a>
+            <a href="{{ p.url }}"><img src="{{ site.baseurl }}/image/lang.png" alt="JP/EN"></a>
           {% endfor %}
         {% else %}
-          <a href="{% if page.lang == 'en' %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}/en/{% endif %}index.html"><img src="{% if page.lang == 'en' %}../{% else %}{{ site.baseurl }}/{% endif %}image/lang.png" alt="JP/EN"></a>
+          <a href="{% if page.lang == 'en' %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}/en/{% endif %}index.html"><img src="{{ site.baseurl }}/image/lang.png" alt="JP/EN"></a>
         {% endif %}
       </div>
     </div>

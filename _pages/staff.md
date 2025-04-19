@@ -9,9 +9,9 @@ copyright_year: 2020
   <ul class="staff">
     {% for member in site.data.staff.ja %}
       <li>
-        <a href="/staff/{{ member.id }}.html">
+        <a href="{{ site.baseurl }}/staff/{{ member.id }}.html">
           <b>{{ member.name }}</b> {{ member.title }}<br>
-          <figure><img src="image/{{ member.image }}" alt="{{ member.name }}"></figure>
+          <figure><img src="{{ site.baseurl }}/image/{{ member.image }}" alt="{{ member.name }}"></figure>
           {{ member.specialties | join: "/" }}
         </a>
       </li>

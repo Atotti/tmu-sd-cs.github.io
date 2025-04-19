@@ -13,5 +13,5 @@ lang: "en"
 <center> <a href="admission.html#open_c">Information about Open Campus is here</a> (2019 events have ended) &emsp;&emsp; <a href="admission.html#insetsu">Graduate School Information Session is here</a> (2019 events have ended) </center>
 -->
 
-  <figure class="w100"><img src="/image/about.en.png" alt=""></figure>
+  <figure class="w100"><img src="{{ site.baseurl }}/image/about.en.png" alt=""></figure>
 </section>

@@ -1,6 +1,6 @@
 <div class="sb-slidebar sb-left sb-style-overlay">
   <ul id="sp_menu">
-    <li><a href="{% if page.lang == 'en' %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}/en/{% endif %}index.html"><img src="{% if page.lang == 'en' %}../{% else %}{{ site.baseurl }}/{% endif %}image/lang.png" alt="JP/EN"></a></li>
+    <li><a href="{% if page.lang == 'en' %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}/en/{% endif %}index.html"><img src="{{ site.baseurl }}/image/lang.png" alt="JP/EN"></a></li>
     <li class="nav0"><a href="{% if page.lang == 'en' %}{{ site.baseurl }}/en/{% else %}{{ site.baseurl }}/{% endif %}index.html">{{ site.data.i18n[page.lang].nav.home }}</a></li>
     <li class="nav1"><a href="{% if page.lang == 'en' %}{{ site.baseurl }}/en/{% else %}{{ site.baseurl }}/{% endif %}about.html">{{ site.data.i18n[page.lang].nav.about }}</a></li>
     <li class="nav2"><a href="{% if page.lang == 'en' %}{{ site.baseurl }}/en/{% else %}{{ site.baseurl }}/{% endif %}staff.html">{{ site.data.i18n[page.lang].nav.staff }}</a></li>

@@ -16,7 +16,7 @@ lang: "en"
   <p>Narita Airport St.→&lt;JR Narita Express / 53min.&gt;→Tokyo St.→&lt;JR Chuo Line / Rapid train / 48min.&gt;→Toyoda St.</p>
   <h3>From Haneda Airport to Toyoda Station</h3>
   <p>Haneda Airport St.→&lt;Tokyo Monorail / 23min.&gt;→Hamamatsucho St.→&lt;JR Keihintohoku Line / 6min.&gt;→Tokyo St.→&lt;JR Chuo Line / Rapid train / 48min.&gt;→Toyoda St.</p>
-  <figure class="center w60"><img src="/image/map.en.png" alt="Map"></figure>
+  <figure class="center w60"><img src="{{ site.baseurl }}/image/map.en.png" alt="Map"></figure>
   <ul>
     <li><a href="https://www.sd.tmu.ac.jp/english/access.html" target="_blank" rel="noopener">https://www.sd.tmu.ac.jp/english/access.html</a></li>
   </ul>

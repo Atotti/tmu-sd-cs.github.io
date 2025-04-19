@@ -2,7 +2,7 @@
     <ul id="banner">
       <li><a href="https://www.tmu.ac.jp/" target="_blank" rel="noopener"><img src="{% if page.lang == 'en' %}{{ site.baseurl }}/image/bn1.en.jpg{% else %}{{ site.baseurl }}/image/bn1_2020.jpg{% endif %}" alt="東京都立大学"></a></li>
       <li><a href="https://www.sd.tmu.ac.jp/" target="_blank" rel="noopener"><img src="{% if page.lang == 'en' %}{{ site.baseurl }}/image/bn2.en.jpg{% else %}{{ site.baseurl }}/image/bn2_2020.jpg{% endif %}" alt="東京都立大学 システムデザイン学部 大学院システムデザイン研究科"></a></li>
-      <li><a href="{% if page.lang == 'en' %}../admissions{% else %}{{ site.baseurl }}/admission{% endif %}.html"><img src="{% if page.lang == 'en' %}{{ site.baseurl }}/image/bn3.en.jpg{% else %}{{ site.baseurl }}/image/bn3.jpg{% endif %}" alt="入学試験について"></a></li>
-      <li><a href="{% if page.lang == 'en' %}../{% else %}{{ site.baseurl }}/{% endif %}faq.html"><img src="{{ site.baseurl }}/image/bn4.jpg" alt="Q&amp;A"></a></li>
+      <li><a href="{% if page.lang == 'en' %}{{ site.baseurl }}/en/admissions{% else %}{{ site.baseurl }}/admission{% endif %}.html"><img src="{% if page.lang == 'en' %}{{ site.baseurl }}/image/bn3.en.jpg{% else %}{{ site.baseurl }}/image/bn3.jpg{% endif %}" alt="入学試験について"></a></li>
+      <li><a href="{% if page.lang == 'en' %}{{ site.baseurl }}/en/{% else %}{{ site.baseurl }}/{% endif %}faq.html"><img src="{{ site.baseurl }}/image/bn4.jpg" alt="Q&amp;A"></a></li>
     </ul>
   </div>
