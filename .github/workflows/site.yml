@@ -28,6 +28,7 @@ jobs:
       - name: Build Jekyll
         id: build
         run: |
+          bundle config set frozen false
           bundle install --jobs 4 --retry 3
           bundle exec jekyll build --strict_front_matter
           echo "site-dir=_site" >> "$GITHUB_OUTPUT"
