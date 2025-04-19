@@ -58,7 +58,6 @@ jobs:
           htmlproofer \
             --only-4xx \
             --allow-hash-href \
-            --no-external-links \
             --verbose \
             _site
 
