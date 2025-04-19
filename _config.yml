@@ -1,0 +1,50 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "東京都立大学 システムデザイン学部 情報科学科 / 東京都立大学大学院 システムデザイン研究科 システムデザイン専攻 情報科学域"
+encoding: "utf-8"
+
+# i18n settings
+languages: ["ja", "en"]
+default_language: "ja"
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name.html
+  staff:
+    output: true
+    permalink: /staff/:name.html
+  en_pages:
+    output: true
+    permalink: /en/:name.html
+  en_staff:
+    output: true
+    permalink: /en/staff/:name.html
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      lang: "ja"
+  - scope:
+      path: ""
+      type: "en_pages"
+    values:
+      layout: "default"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "staff"
+    values:
+      layout: "staff_member"
+      lang: "ja"
+  - scope:
+      path: ""
+      type: "en_staff"
+    values:
+      layout: "staff_member"
+      lang: "en"
