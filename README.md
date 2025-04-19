@@ -175,7 +175,7 @@ News & Topicsセクションは、個別のマークダウンファイルとし�
    staff_id: lastname
    staff_name: "氏名"
    staff_title: "役職"
-   staff_image: "lastname_prof.jpg"
+   staff_image: "lastname_prof.webp"
    lang: "ja"
    ref: "staff-lastname"  # 日英ページを関連付けるための一意のID
    specialties:

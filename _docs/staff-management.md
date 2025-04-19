@@ -70,7 +70,7 @@ copyright_year: 2025
 staff_id: lastname
 staff_name: "氏名"
 staff_title: "役職"
-staff_image: "lastname_prof.jpg"
+staff_image: "lastname_prof.webp"
 lang: "ja"
 ref: "staff-lastname"
 specialties:
@@ -105,7 +105,7 @@ copyright_year: 2025
 staff_id: lastname
 staff_name: "Name in English"
 staff_title: "Position in English"
-staff_image: "lastname_prof.jpg"
+staff_image: "lastname_prof.webp"
 lang: "en"
 ref: "staff-lastname"
 specialties:

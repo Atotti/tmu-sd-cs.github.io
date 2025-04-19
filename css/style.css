@@ -228,7 +228,7 @@ footer p {
 }
 /* top */
 #mainvisual {
-	background-image: url(../image/topback.jpg);
+	background-image: url(../image/topback.webp);
 	background-size: cover;
 	background-position: center center;
 	margin: 0 0 30px;
@@ -259,7 +259,7 @@ main.top {
 	padding: 5px 0 6px 35px;
 	margin: 0;
 	font-size: 25px;
-	background: url("../image/h2top.png") no-repeat 0 0;
+	background: url("../image/h2top.webp") no-repeat 0 0;
 	background-size: 26px 28px;
 	font-family: "Yu Mincho", serif;
 	border: none;
@@ -400,7 +400,7 @@ ul {
 ul li {
 	list-style: none;
 	padding: 2px 0 2px 16px;
-	background-image: url(../image/li.png);
+	background-image: url(../image/li.webp);
 	background-position: 0 10px;
 	background-repeat: no-repeat;
 	background-size: 11px 11px;
@@ -487,17 +487,17 @@ figure.movie iframe {
 }
 /* utility */
 a[target="_blank"] {
-	background: url(../image/ic_blank.png) right no-repeat;
+	background: url(../image/ic_blank.webp) right no-repeat;
 	padding-right: 22px;
 	background-size: 18px 17px;
 }
 a[href$=".pdf"] {
-	background: url(../image/ic_pdf.png) right no-repeat;
+	background: url(../image/ic_pdf.webp) right no-repeat;
 	padding-right: 24px;
 	background-size: 20px 20px;
 }
 a[href$=".doc"], a[href$=".docx"] {
-	background: url(../image/ic_doc.png) right no-repeat;
+	background: url(../image/ic_doc.webp) right no-repeat;
 	padding-right: 24px;
 	background-size: 20px 18px;
 }

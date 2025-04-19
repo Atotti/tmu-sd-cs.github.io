@@ -19,7 +19,7 @@ copyright_year: 2020
     <li>ＪＲ八高線「北八王子」駅から徒歩約15分</li>
   </ul>
   <p>*学部1・2年次は南大沢キャンパス</p>
-  <figure class="w70 "><img src="{{ site.baseurl }}/image/map.png" alt=""></figure>
+  <figure class="w70 "><img src="{{ site.baseurl }}/image/map.webp" alt=""></figure>
   <ul>
     <li><a href="https://goo.gl/maps/9SF6fXR8W5T2" target="_blank" rel="noopener">Google Mapsで見る</a></li>
   </ul>

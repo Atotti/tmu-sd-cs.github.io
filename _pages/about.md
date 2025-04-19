@@ -12,5 +12,5 @@ copyright_year: 2020
 <center> <a href="admission.html#open_c">オープンキャンパスのご案内はこちら</a>(2019年開催は終了） &emsp;&emsp; <a href="admission.html#insetsu">  大学院入試説明会はこちら</a>（2019年開催は終了） </center>
 -->
 
-  <figure class="w100"><img src="{{ site.baseurl }}/image/about.png" alt=""></figure>
+  <figure class="w100"><img src="{{ site.baseurl }}/image/about.webp" alt=""></figure>
 </section>

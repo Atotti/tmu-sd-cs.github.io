@@ -9,7 +9,7 @@
 {% include navigation.html %}
 {% if page.url == "/" or page.url == "/index.html" or page.url == "/en/" or page.url == "/en/index.html" %}
   <div id="mainvisual">
-    <div id="mainvisual_frame"><img src="{% if page.lang == 'en' %}{{ site.baseurl }}/image/top.en.png{% else %}{{ site.baseurl }}/image/top.png{% endif %}" alt="プログラミングと数理・論理的思考により社会的価値を創出します"></div>
+    <div id="mainvisual_frame"><img src="{% if page.lang == 'en' %}{{ site.baseurl }}/image/top.en.webp{% else %}{{ site.baseurl }}/image/top.webp{% endif %}" alt="プログラミングと数理・論理的思考により社会的価値を創出します"></div>
   </div>
   <main class="top">
     {{ content }}
