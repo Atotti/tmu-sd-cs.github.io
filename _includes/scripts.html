@@ -1,4 +1,4 @@
-<script src="{% if page.lang == 'en' %}../{% else %}/{% endif %}js/slidebars.js"></script>
+<script src="{% if page.lang == 'en' %}../{% else %}{{ site.baseurl }}/{% endif %}js/slidebars.js"></script>
 <script>
 (function($) {
   $(document).ready(function() {
