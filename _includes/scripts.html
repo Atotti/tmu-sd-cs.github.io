@@ -1,0 +1,13 @@
+<script src="{% if page.lang == 'en' %}../{% else %}/{% endif %}js/slidebars.js"></script>
+<script>
+(function($) {
+  $(document).ready(function() {
+    $.slidebars({
+      disableOver: 480,
+      hideControlClasses: true,
+      scrollLock: true,
+      siteClose: true,
+    });
+  });
+}) (jQuery);
+</script>
