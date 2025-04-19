@@ -1,5 +1,6 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: ""
+url: "https://atotti.github.io" # GitHub Pages URL This Setting is for previewing the site my repository
+baseurl: "/tmu-sd-cs.github.io" # GitHub Pages URL This Setting is for previewing the site my repository
+
 title: "東京都立大学 システムデザイン学部 情報科学科 / 東京都立大学大学院 システムデザイン研究科 システムデザイン専攻 情報科学域"
 encoding: "utf-8"
 
