@@ -1,0 +1,271 @@
+- id: aida
+  name: Masaki Aida
+  title: Professor
+  image: aida_prof.jpg
+  en_page: staff_aida.html
+  specialties:
+    - Information Networks
+    - Network Science
+    - Autonomous Distributed Control
+    - Social Media Networks
+    - Social Network Analysis
+  description: |
+    With the development of information networks, phenomena on the Internet have come to have a significant impact on real-world social activities. In particular, destructive dynamics such as online flaming not only adversely affect some victims but also pose a risk of causing widespread social losses. In our laboratory's latest research themes, we are working on understanding the causes of online flaming from an engineering perspective and realizing its suppression, where a world naturally emerges in which information network engineering and quantum theory are integrated.
+  links:
+    - title: Personal Website
+      url: http://exmgaity.sd.tmu.ac.jp/~aida/index_e.html
+    - title: Laboratory Website
+      url: http://exmgaity.sd.tmu.ac.jp/~aida/lab/
+
+- id: ono
+  name: Nobutaka Ono
+  title: Professor
+  image: ono_prof.jpg
+  en_page: staff_ono.html
+  specialties:
+    - Microphone Array
+    - Sound Source Separation
+    - Acoustic Scene Recognition
+    - Time-Frequency Analysis
+    - Acoustic Signal Processing
+  description: |
+    Sound is an important medium containing diverse information, and we communicate through speech, enjoy music, and perceive various situations around us through sound on a daily basis. The Ono Laboratory aims to realize advanced sound information processing that is similar to or beyond human capabilities, and conducts research on signal processing and information processing for sound, such as speech and music.
+  links:
+    - title: Laboratory Website
+      url: http://www.comp.sd.tmu.ac.jp/onolab/
+
+- id: katayama
+  name: Kaoru Katayama
+  title: Professor
+  image: katayama_prof.jpg
+  en_page: staff_katayama.html
+  specialties:
+    - 3D Modeling
+    - CAD
+    - Assembly
+    - Search
+  description: ""
+  links: []
+
+- id: takama
+  name: Yasufumi Takama
+  title: Professor
+  image: takama_prof.jpg
+  en_page: staff_takama.html
+  specialties:
+    - Web Intelligence
+    - Information Visualization
+    - Recommender Systems
+    - Interactive Systems
+    - Data Mining
+  description: ""
+  links: []
+
+- id: nishiuchi
+  name: Nobuyuki Nishiuchi
+  title: Professor
+  image: nishiuchi_prof.jpg
+  en_page: staff_nishiuchi.html
+  specialties:
+    - Human Interface
+    - Usability
+    - User Experience
+    - Biometrics
+  description: ""
+  links: []
+
+- id: matsuda
+  name: Takahiro Matsuda
+  title: Professor
+  image: matsuda_prof.jpg
+  en_page: staff_matsuda.html
+  specialties:
+    - Information Communication Networks
+    - Wireless Networks
+    - Communication Quality
+    - Network Diagnostics
+    - Network Measurement
+  description: ""
+  links: []
+
+- id: fujiyoshi
+  name: Masaaki Fujiyoshi
+  title: Professor (Joint Appointment)
+  image: fujiyoshi_prof.jpg
+  en_page: staff_fujiyoshi.html
+  specialties:
+    - Media Information Security
+    - Image Processing
+    - Media Information Value Enhancement
+  description: ""
+  links: []
+
+- id: nagai
+  name: Masahiro Nagai
+  title: Professor (Joint Appointment)
+  image: nagai_prof.jpg
+  en_page: staff_nagai.html
+  specialties:
+    - Development and Evaluation of Information Education in Higher Education
+    - Methodology of Practical Research
+    - Learning Analytics
+    - e-Learning
+    - Open Education
+  description: ""
+  links: []
+
+- id: okamoto
+  name: Shogo Okamoto
+  title: Associate Professor
+  image: okamoto_prof.jpg
+  en_page: staff_okamoto.html
+  specialties:
+    - Human Informatics
+    - Virtual Reality
+    - Support Systems
+    - Kansei Science and Engineering
+  description: ""
+  links: []
+
+- id: shiota
+  name: Sayaka Shiota
+  title: Associate Professor
+  image: shiota_prof.jpg
+  en_page: staff_shiota.html
+  specialties:
+    - Speech Signal Processing
+    - Machine Learning
+    - Voice Biometrics
+  description: ""
+  links: []
+
+- id: shimokawara
+  name: Eri Shimokawara
+  title: Associate Professor
+  image: shimokawara_prof.jpg
+  en_page: staff_shimokawara.html
+  specialties:
+    - Intelligent Agents
+    - Interaction through Intelligent Information Processing
+    - Behavior Recognition and Gesture Recognition
+  description: ""
+  links: []
+
+- id: fukui
+  name: Takao Fukui
+  title: Associate Professor
+  image: fukui_prof.jpg
+  en_page: staff_fukui.html
+  specialties:
+    - Cognitive Science
+    - Visuomotor Transformation Process
+    - Motor Generation and Action Perception
+    - Reaching and Grasping Movements
+    - 3D Motion Analysis
+  description: ""
+  links: []
+
+- id: yokoyama
+  name: Shohei Yokoyama
+  title: Associate Professor
+  image: yokoyama_prof.jpg
+  en_page: staff_yokoyama.html
+  specialties:
+    - Science of Social Media Appeal
+    - Geosocial Surveying Technology
+    - Big Data Visualization
+    - Geographic Information Processing Algorithms
+  description: ""
+  links: []
+
+- id: fushikida
+  name: Wakako Fushikida
+  title: Associate Professor (Joint Appointment)
+  image: fushikida_prof.jpg
+  en_page: staff_fushikida.html
+  specialties:
+    - Educational Technology
+    - Cognitive Psychology
+    - Information Literacy Education
+    - Seminar Education
+    - Quantitative Analysis
+  description: ""
+  links: []
+
+- id: shibata
+  name: Yuki Shibata
+  title: Assistant Professor
+  image: shibata_prof.jpg
+  en_page: staff_shibata.html
+  specialties:
+    - Data Mining
+    - Information Recommendation
+    - Artificial Intelligence
+    - Machine Learning
+    - Optimization
+  description: ""
+  links: []
+
+- id: shiraki
+  name: Shino Shiraki
+  title: Assistant Professor
+  image: shiraki_prof.jpg
+  en_page: staff_shiraki.html
+  specialties:
+    - Sensor Position Estimation
+    - Indoor Pedestrian Positioning
+    - Environmental Information Estimation
+  description: ""
+  links: []
+
+- id: nakajima
+  name: Kazuki Nakajima
+  title: Assistant Professor
+  image: nakajima_prof.jpg
+  en_page: staff_nakajima.html
+  specialties:
+    - Computational Social Science
+    - Network Science
+    - Social Data Analysis
+  description: ""
+  links: []
+
+- id: fujita
+  name: Hachiro Fujita
+  title: Assistant Professor
+  image: fujita30.jpg
+  en_page: staff_fujita.html
+  specialties:
+    - Communication Systems
+    - Coding
+    - Cryptography
+  description: ""
+  links: []
+
+- id: ishikawa
+  name: Hiroshi Ishikawa
+  title: Special Leading Professor/Project Professor/Professor Emeritus
+  image: ishikawa_prof.jpg
+  en_page: staff_ishikawa.html
+  specialties:
+    - Big Data
+    - Social Data
+    - Data Mining and Machine Learning
+    - Tourism Information and Scientific Data Analysis
+    - Open Data
+  description: ""
+  links: []
+
+- id: kiya
+  name: Hitoshi Kiya
+  title: Special Leading Professor/Project Professor/Professor Emeritus
+  image: kiya_prof.jpg
+  en_page: staff_kiya.html
+  specialties:
+    - Signal Processing
+    - Image, Video, and Audio Processing
+    - Data Compression
+    - Social Media
+    - Multimedia Security and Forensics
+  description: ""
+  links: []

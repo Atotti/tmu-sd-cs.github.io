@@ -9,7 +9,7 @@
 {% include navigation.html %}
 {% if page.url == "/" or page.url == "/index.html" %}
   <div id="mainvisual">
-    <div id="mainvisual_frame"><img src="{% if page.lang == 'en' %}../{% endif %}image/top.png" alt="プログラミングと数理・論理的思考により社会的価値を創出します"></div>
+    <div id="mainvisual_frame"><img src="{% if page.lang == 'en' %}/image/top.en.png{% else %}/image/top.png{% endif %}" alt="プログラミングと数理・論理的思考により社会的価値を創出します"></div>
   </div>
   <main class="top">
     {{ content }}

@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h1 class="nav2">{{ page.staff_name }} 研究室</h1>
+<h1 class="nav2">{{ page.staff_name }} {{ site.data.i18n[page.lang].common.lab }}</h1>
 <section>
   <h2 class="mt0">{{ page.staff_name }} {{ page.staff_title }}</h2>
   <div class="lab">
-    <figure><img src="{% if page.lang == 'en' %}../{% else %}/{% endif %}image/{{ page.staff_image }}" alt="{{ page.staff_name }} {{ page.staff_title }}"></figure>
+    <figure><img src="/image/{{ page.staff_image }}" alt="{{ page.staff_name }} {{ page.staff_title }}"></figure>
     <div>
       <p class="mt20 mt05sp"><strong>{{ page.specialties | join: "/" }}</strong></p>
       <p class="mt20 mt05sp">{{ page.description }}</p>

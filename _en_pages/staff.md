@@ -8,7 +8,7 @@ lang: "en"
 <h1 class="nav2">Faculty</h1>
 <section>
   <ul class="staff">
-    {% for member in site.data.staff %}
+    {% for member in site.data.staff.en %}
       <li>
         <a href="/en/staff/{{ member.id }}.html">
           <b>{{ member.name }}</b> {{ member.title }}<br>
