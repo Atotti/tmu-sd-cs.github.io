@@ -1,0 +1,27 @@
+# Japanese translations
+
+nav:
+  home: "ホーム"
+  about: "情報科学科とは"
+  staff: "教員紹介"
+  curriculum: "学べること"
+  admission: "入学試験"
+  way: "進路"
+  faq: "FAQ"
+  access: "アクセス"
+
+titles:
+  about: "情報科学科とは"
+  staff: "教員紹介"
+  curriculum: "学べること"
+  admission: "入学試験"
+  admission_office: "入試事務室"
+  way: "進路"
+  faq: "FAQ"
+  access: "アクセス"
+
+common:
+  back_to_staff: "教員一覧へ戻る"
+  copyright: "Copyright © %{year} TOKYO METROPOLITAN UNIVERSITY. All rights reserved."
+  address: "〒191-0065 東京都日野市旭が丘6-6　東京都立大学日野キャンパス"
+  tel: "Tel 042-585-8606"
