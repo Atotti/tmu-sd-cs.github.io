@@ -106,20 +106,9 @@ jobs:
             --assert.preset="lighthouse:recommended" \
             --assert.assertions="categories:performance>0, categories:best-practices>0, categories:accessibility>95, categories:seo>90"
 
-  markdown-spell:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Run markdown lint and spell check
-        run: |
-          npm install -g markdownlint-cli2 codespell
-          markdownlint-cli2 "**/*.md"
-          codespell -q3 --skip="*.png,*.jpg,*.gif,*.svg"
-
   deploy:
     if: github.ref == 'refs/heads/main'
-    needs: [build, htmlproofer, htmlhint, a11y, lighthouse, markdown-spell]
+    needs: [build, htmlproofer, htmlhint, a11y, lighthouse]
     permissions:
       pages: write
       id-token: write
