@@ -11,7 +11,7 @@ lang: "en"
     {% for member in site.data.staff.en %}
       <li>
         <a href="/en/staff/{{ member.id }}.html">
-          <b>{{ member.name }}</b> {{ member.title }}<br>
+          {{ member.title }} <b>{{ member.name }}</b><br>
           <figure><img src="/image/{{ member.image }}" alt="{{ member.name }}"></figure>
           {{ member.specialties | join: "/" }}
         </a>
