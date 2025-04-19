@@ -1,0 +1,13 @@
+{
+  "name": "tmu-sd-cs-website",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@lhci/cli": "^0.13.0",
+    "htmlhint": "^1.1.4",
+    "pa11y": "^6.3.0",
+    "markdownlint-cli2": "^0.9.2",
+    "codespell": "latest",
+    "http-server": "latest"
+  }
+}

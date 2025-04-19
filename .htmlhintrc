@@ -1,0 +1,6 @@
+{
+  "doctype-first": false,
+  "alt-require": true,
+  "attr-unsafe-chars": true,
+  "img-req-src": true
+}
