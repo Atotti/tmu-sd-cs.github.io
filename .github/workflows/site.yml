@@ -49,7 +49,7 @@ jobs:
           path: .
       - name: Extract artifact
         run: |
-          mkdir site && tar -xf artifact.tar -C _site
+          mkdir _site && tar -xf artifact.tar -C _site
           ls -R site | head
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -75,7 +75,7 @@ jobs:
           path: .
       - name: Extract artifact
         run: |
-          mkdir site && tar -xf artifact.tar -C _site
+          mkdir _site && tar -xf artifact.tar -C _site
           ls -R site | head
       - name: Run htmlhint
         run: |
