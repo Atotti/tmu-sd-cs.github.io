@@ -1,0 +1,13 @@
+<div class="sb-slidebar sb-left sb-style-overlay">
+  <ul id="sp_menu">
+    <li><a href="{% if page.lang == 'en' %}/{% else %}/en/{% endif %}index.html"><img src="{% if page.lang == 'en' %}../{% else %}/{% endif %}image/lang.png" alt="JP/EN"></a></li>
+    <li class="nav0"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}index.html">{{ site.data.i18n[page.lang].nav.home }}</a></li>
+    <li class="nav1"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}about.html">{{ site.data.i18n[page.lang].nav.about }}</a></li>
+    <li class="nav2"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}staff.html">{{ site.data.i18n[page.lang].nav.staff }}</a></li>
+    <li class="nav3"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}{% if page.lang == 'en' %}courses{% else %}curriculum{% endif %}.html">{{ site.data.i18n[page.lang].nav.curriculum }}</a></li>
+    <li class="nav4"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}{% if page.lang == 'en' %}admissions{% else %}admission{% endif %}.html">{{ site.data.i18n[page.lang].nav.admission }}</a></li>
+    <li class="nav5"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}{% if page.lang == 'en' %}careers{% else %}way{% endif %}.html">{{ site.data.i18n[page.lang].nav.way }}</a></li>
+    <li class="nav6"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}faq.html">{{ site.data.i18n[page.lang].nav.faq }}</a></li>
+    <li class="nav7"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}access.html">{{ site.data.i18n[page.lang].nav.access }}</a></li>
+  </ul>
+</div>

@@ -1,0 +1,14 @@
+<nav>
+    <ul id="menu">
+      <li class="nav0"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}index.html">&nbsp;</a></li>
+      <li class="nav1"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}about.html">{{ site.data.i18n[page.lang].nav.about }}</a></li>
+      <li class="nav2"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}staff.html">{{ site.data.i18n[page.lang].nav.staff }}</a></li>
+      <li class="nav3"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}curriculum.html">{{ site.data.i18n[page.lang].nav.curriculum }}</a></li>
+      <li class="nav4"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}admission.html">{{ site.data.i18n[page.lang].nav.admission }}</a></li>
+      {% if page.lang != 'en' %}
+      <li class="nav5"><a href="/way.html">{{ site.data.i18n[page.lang].nav.way }}</a></li>
+      {% endif %}
+      <li class="nav6"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}faq.html">{{ site.data.i18n[page.lang].nav.faq }}</a></li>
+      <li class="nav7"><a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}access.html">{{ site.data.i18n[page.lang].nav.access }}</a></li>
+    </ul>
+  </nav>

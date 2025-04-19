@@ -1,0 +1,268 @@
+- id: aida
+  name: 會田 雅樹
+  title: 教授
+  image: aida_prof.jpg
+  en_page: staff_aida.html
+  specialties:
+    - 情報ネットワーク
+    - ネットワーク科学
+    - 自律分散制御
+    - ソーシャルメディアネットワーク
+    - 社会ネットワーク分析
+  description: |
+    情報ネットワークの発展により、ネット上の現象が現実の社会活動に大きな影響を与える状況になっています。特に、ネット炎上などの破壊的なダイナミクスは、一部の被災者への悪影響に留まらず、幅広い社会的損失を招く危険性があります。本研究室での最新テーマでは、ネット炎上の発生原因を工学的に理解し、その発生の抑制を実現する研究に取り組んでおり、そこでは情報ネットワーク工学と量子論とが自然に融合した世界が現れます。
+  links:
+    - title: 個人website
+      url: http://exmgaity.sd.tmu.ac.jp/~aida/index_j.html
+    - title: 研究室website
+      url: http://exmgaity.sd.tmu.ac.jp/~aida/lab/
+
+- id: ono
+  name: 小野 順貴
+  title: 教授
+  image: ono_prof.jpg
+  en_page: staff_ono.html
+  specialties:
+    - マイクロホンアレイ
+    - 音源分離
+    - 音シーン認識
+    - 時間周波数解析
+    - 音響信号処理
+  description: ""
+  links: []
+
+- id: katayama
+  name: 片山 薫
+  title: 教授
+  image: katayama_prof.jpg
+  en_page: staff_katayama.html
+  specialties:
+    - 3次元モデル
+    - CAD
+    - アセンブリ
+    - 検索
+  description: ""
+  links: []
+
+- id: takama
+  name: 高間 康史
+  title: 教授
+  image: takama_prof.jpg
+  en_page: staff_takama.html
+  specialties:
+    - Webインテリジェンス
+    - 情報可視化
+    - 情報推薦システム
+    - インタラクティブシステム
+    - データマイニング
+  description: ""
+  links: []
+
+- id: nishiuchi
+  name: 西内 信之
+  title: 教授
+  image: nishiuchi_prof.jpg
+  en_page: staff_nishiuchi.html
+  specialties:
+    - ヒューマンインタフェース
+    - ユーザビリティ
+    - ユーザエクスペリエンス
+    - バイオメトリクス
+  description: ""
+  links: []
+
+- id: matsuda
+  name: 松田 崇弘
+  title: 教授
+  image: matsuda_prof.jpg
+  en_page: staff_matsuda.html
+  specialties:
+    - 情報通信ネットワーク
+    - 無線ネットワーク
+    - 通信品質
+    - ネットワーク診断
+    - ネットワーク計測
+  description: ""
+  links: []
+
+- id: fujiyoshi
+  name: 藤吉 正明
+  title: 教授（兼担）
+  image: fujiyoshi_prof.jpg
+  en_page: staff_fujiyoshi.html
+  specialties:
+    - メディア情報セキュリティ
+    - 画像処理
+    - メディア情報高付加価値化
+  description: ""
+  links: []
+
+- id: nagai
+  name: 永井 正洋
+  title: 教授（兼担）
+  image: nagai_prof.jpg
+  en_page: staff_nagai.html
+  specialties:
+    - 高等教育における情報教育の開発と評価
+    - 実践的研究の方法論
+    - ラーニング・アナリティクス
+    - eラーニング
+    - オープン・エデュケーション
+  description: ""
+  links: []
+
+- id: okamoto
+  name: 岡本 正吾
+  title: 准教授
+  image: okamoto_prof.jpg
+  en_page: staff_okamoto.html
+  specialties:
+    - 人間情報学
+    - バーチャルリアリティ
+    - 支援システム
+    - 感性科学・工学
+  description: ""
+  links: []
+
+- id: shiota
+  name: 塩田 さやか
+  title: 准教授
+  image: shiota_prof.jpg
+  en_page: staff_shiota.html
+  specialties:
+    - 音声信号処理
+    - 機械学習
+    - 音声バイオメトリクス
+  description: ""
+  links: []
+
+- id: shimokawara
+  name: 下川原 英理
+  title: 准教授
+  image: shimokawara_prof.jpg
+  en_page: staff_shimokawara.html
+  specialties:
+    - 知的エージェント
+    - 知能情報処理によるインタラクション
+    - 行動認識・ジェスチャ認識
+  description: ""
+  links: []
+
+- id: fukui
+  name: 福井 隆雄
+  title: 准教授
+  image: fukui_prof.jpg
+  en_page: staff_fukui.html
+  specialties:
+    - 認知科学
+    - 視覚運動変換過程
+    - 運動生成と行為知覚
+    - 到達把持動作
+    - 三次元動作解析
+  description: ""
+  links: []
+
+- id: yokoyama
+  name: 横山 昌平
+  title: 准教授
+  image: yokoyama_prof.jpg
+  en_page: staff_yokoyama.html
+  specialties:
+    - SNS映えの科学
+    - ジオソーシャル測量技術
+    - ビッグデータ可視化
+    - 地理情報処理アルゴリズム
+  description: ""
+  links: []
+
+- id: fushikida
+  name: 伏木田 稚子
+  title: 准教授（兼担）
+  image: fushikida_prof.jpg
+  en_page: staff_fushikida.html
+  specialties:
+    - 教育工学
+    - 認知心理学
+    - 情報リテラシー教育
+    - ゼミナール教育
+    - 計量分析
+  description: ""
+  links: []
+
+- id: shibata
+  name: 柴田 祐樹
+  title: 助教
+  image: shibata_prof.jpg
+  en_page: staff_shibata.html
+  specialties:
+    - データマイニング
+    - 情報推薦
+    - 人工知能
+    - 機械学習
+    - 最適化
+  description: ""
+  links: []
+
+- id: shiraki
+  name: 白木 詩乃
+  title: 助教
+  image: shiraki_prof.jpg
+  en_page: staff_shiraki.html
+  specialties:
+    - センサの位置推定
+    - 歩行者の屋内位置推定
+    - 環境情報推定
+  description: ""
+  links: []
+
+- id: nakajima
+  name: 中嶋 一貴
+  title: 助教
+  image: nakajima_prof.jpg
+  en_page: staff_nakajima.html
+  specialties:
+    - 計算社会科学
+    - ネットワーク科学
+    - ソーシャルデータ分析
+  description: ""
+  links: []
+
+- id: fujita
+  name: 藤田 八郎
+  title: 助教
+  image: fujita30.jpg
+  en_page: staff_fujita.html
+  specialties:
+    - 通信システム
+    - 符号
+    - 暗号
+  description: ""
+  links: []
+
+- id: ishikawa
+  name: 石川 博
+  title: 特別先導教授/特任教授/名誉教授
+  image: ishikawa_prof.jpg
+  en_page: staff_ishikawa.html
+  specialties:
+    - ビッグデータ
+    - ソーシャルデータ
+    - データマイニング・機械学習
+    - 観光情報・科学データ解析
+    - オープンデータ
+  description: ""
+  links: []
+
+- id: kiya
+  name: 貴家 仁志
+  title: 特別先導教授/特任教授/名誉教授
+  image: kiya_prof.jpg
+  en_page: staff_kiya.html
+  specialties:
+    - 信号処理
+    - 画像・映像・音声処理
+    - データ圧縮
+    - ソーシャルメディア
+    - マルチメディアセキュリティ・フォレンジックス
+  description: ""
+  links: []

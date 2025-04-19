@@ -1,0 +1,95 @@
+name: Site CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+env:
+  JEKYLL_ENV: production
+  RUBY_VERSION: 3.3
+  NODE_VERSION: 18
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      site-dir: ${{ steps.build.outputs.site-dir }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+
+      - name: Build Jekyll
+        id: build
+        run: |
+          bundle config set frozen false
+          bundle install --jobs 4 --retry 3
+          bundle exec jekyll build --strict_front_matter
+          echo "site-dir=_site" >> "$GITHUB_OUTPUT"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  htmlproofer:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: .
+      - name: Extract artifact
+        run: |
+          mkdir _site && tar -xf artifact.tar -C _site
+          ls -R site | head
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+      - name: Install html-proofer
+        run: gem install html-proofer
+      - name: Run html-proofer
+        run: |
+          ls -la
+          htmlproofer ./_site
+
+
+
+  htmlhint:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: .
+      - name: Extract artifact
+        run: |
+          mkdir _site && tar -xf artifact.tar -C _site
+          ls -R site | head
+      - name: Run htmlhint
+        run: |
+          npm install -g htmlhint@latest
+          npx htmlhint "_site/**/*.html" --config .htmlhintrc
+
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: [build, htmlproofer, htmlhint]
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v3
