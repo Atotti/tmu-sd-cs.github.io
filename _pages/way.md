@@ -2,6 +2,7 @@
 layout: default
 title: "進路"
 copyright_year: 2020
+ref: "way"
 ---
 
 <h1 class="nav5">進路 （関連学科および情報科学域（大学院）の実績）</h1>

@@ -6,6 +6,8 @@ staff_id: okamoto
 staff_name: 岡本 正吾
 staff_title: 准教授
 staff_image: okamoto_prof.jpg
+lang: "ja"
+ref: "staff-okamoto"
 specialties:
 - 人間情報学
 - バーチャルリアリティ

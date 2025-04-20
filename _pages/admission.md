@@ -2,6 +2,7 @@
 layout: default
 title: "入学試験"
 copyright_year: 2020
+ref: "admission"
 ---
 
 <h1 class="nav4">入学試験</h1>

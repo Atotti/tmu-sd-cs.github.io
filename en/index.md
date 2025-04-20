@@ -3,6 +3,8 @@ layout: default
 title: "Home"
 copyright_year: 2020
 lang: "en"
+ref: "index"
+permalink: /en/index.html
 ---
 
 <section id="news">

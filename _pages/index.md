@@ -2,6 +2,7 @@
 layout: default
 title: "ホーム"
 copyright_year: 2020
+ref: "index"
 ---
 
 <section id="news">

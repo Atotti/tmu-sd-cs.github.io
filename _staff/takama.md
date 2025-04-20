@@ -6,6 +6,8 @@ staff_id: takama
 staff_name: 高間 康史
 staff_title: 教授
 staff_image: takama_prof.jpg
+lang: "ja"
+ref: "staff-takama"
 specialties:
 - Webインテリジェンス
 - 情報可視化

@@ -2,6 +2,7 @@
 layout: default
 title: "アドミッション・オフィス（AO）入試"
 copyright_year: 2020
+ref: "admission_office"
 ---
 
 <h1 class="nav4">アドミッション・オフィス（AO）入試</h1>

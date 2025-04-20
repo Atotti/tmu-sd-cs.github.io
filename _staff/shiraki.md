@@ -6,6 +6,8 @@ staff_id: shiraki
 staff_name: 白木 詩乃
 staff_title: 助教
 staff_image: shiraki_prof.jpg
+lang: "ja"
+ref: "staff-shiraki"
 specialties:
 - センサの位置推定
 - 歩行者の屋内位置推定

@@ -16,9 +16,6 @@ collections:
   staff:
     output: true
     permalink: /staff/:name.html
-  en_pages:
-    output: true
-    permalink: /en/:name.html
   en_staff:
     output: true
     permalink: /en/staff/:name.html
@@ -38,8 +35,8 @@ defaults:
       layout: "default"
       lang: "ja"
   - scope:
-      path: ""
-      type: "en_pages"
+      path: "en"
+      type: "pages"
     values:
       layout: "default"
       lang: "en"

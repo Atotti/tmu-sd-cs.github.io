@@ -6,6 +6,8 @@ staff_id: matsuda
 staff_name: 松田 崇弘
 staff_title: 教授
 staff_image: matsuda_prof.jpg
+lang: "ja"
+ref: "staff-matsuda"
 specialties:
 - 情報通信ネットワーク
 - 無線ネットワーク

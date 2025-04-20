@@ -6,6 +6,8 @@ staff_id: fukui
 staff_name: 福井 隆雄
 staff_title: 准教授
 staff_image: fukui_prof.jpg
+lang: "ja"
+ref: "staff-fukui"
 specialties:
 - 認知科学
 - 視覚運動変換過程
@@ -37,4 +39,3 @@ links:
   <img src="/image/fukui_02.jpg" alt="">
   <figcaption>図2．停止エスカレータ乗込み動作と違和感．</figcaption>
 </figure>
-

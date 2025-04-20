@@ -6,6 +6,8 @@ staff_id: shiota
 staff_name: 塩田 さやか
 staff_title: 准教授
 staff_image: shiota_prof.jpg
+lang: "ja"
+ref: "staff-shiota"
 specialties:
 - 音声信号処理
 - 機械学習

@@ -6,6 +6,8 @@ staff_id: fushikida
 staff_name: 伏木田 稚子
 staff_title: 准教授（兼担）
 staff_image: fushikida_prof.jpg
+lang: "ja"
+ref: "staff-fushikida"
 specialties:
 - 教育工学
 - 認知心理学

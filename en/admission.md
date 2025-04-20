@@ -2,6 +2,9 @@
 layout: default
 title: "Admissions"
 copyright_year: 2020
+lang: "en"
+ref: "admission"
+permalink: /en/admission.html
 ---
 
 <h1 class="nav4">Admissions</h1>

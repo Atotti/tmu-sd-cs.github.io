@@ -6,6 +6,8 @@ staff_id: kiya
 staff_name: 貴家 仁志
 staff_title: 特別先導教授/特任教授/名誉教授
 staff_image: kiya_prof.jpg
+lang: "ja"
+ref: "staff-kiya"
 specialties:
 - 信号処理
 - 画像・映像・音声処理

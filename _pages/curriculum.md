@@ -2,6 +2,7 @@
 layout: default
 title: "学べること"
 copyright_year: 2020
+ref: "curriculum"
 ---
 
 <h1 class="nav3">学べること</h1>

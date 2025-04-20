@@ -6,6 +6,8 @@ staff_id: fujita
 staff_name: 藤田 八郎
 staff_title: 助教
 staff_image: fujita30.jpg
+lang: "ja"
+ref: "staff-fujita"
 specialties:
 - 通信システム
 - 符号
@@ -13,4 +15,3 @@ specialties:
 description: 私の研究分野は情報理論とその応用で、通信システムの性能解析、符号、暗号の問題に取り組んでいます。
 links:
 ---
-

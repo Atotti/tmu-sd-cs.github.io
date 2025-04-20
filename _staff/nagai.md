@@ -6,6 +6,8 @@ staff_id: nagai
 staff_name: 永井 正洋
 staff_title: 教授（兼担）
 staff_image: nagai_prof.jpg
+lang: "ja"
+ref: "staff-nagai"
 specialties:
 - 高等教育における情報教育の開発と評価
 - 実践的研究の方法論

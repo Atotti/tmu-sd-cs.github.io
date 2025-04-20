@@ -6,6 +6,8 @@ staff_id: aida
 staff_name: 會田 雅樹
 staff_title: 教授
 staff_image: aida_prof.jpg
+lang: "ja"
+ref: "staff-aida"
 specialties:
 - 情報ネットワーク
 - ネットワーク科学

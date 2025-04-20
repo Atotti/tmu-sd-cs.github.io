@@ -2,6 +2,7 @@
 layout: default
 title: "FAQ"
 copyright_year: 2020
+ref: "faq"
 ---
 
 <h1 class="nav6" id="faqstart">FAQ</h1>

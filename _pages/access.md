@@ -2,6 +2,7 @@
 layout: default
 title: "アクセス"
 copyright_year: 2020
+ref: "access"
 ---
 
 <h1 class="nav7">アクセス</h1>

@@ -7,14 +7,26 @@
   <header id="header">
     <div id="header_link_wrapper">
       <div id="header_link">
-        {% if page.ref %}
-          {% assign pages=site.pages | where:"ref", page.ref | where_exp:"p", "p.lang != page.lang" %}
+      {% if page.ref %}
+        {% assign pages=site.pages | where:"ref", page.ref | where_exp:"p", "p.lang != page.lang" %}
+        {% if pages.size > 0 %}
           {% for p in pages %}
-            <a href="{{ p.url }}"><img src="{{ site.baseurl }}/image/lang.webp" alt="JP/EN"></a>
+            <a href="{{ p.url | relative_url }}"><img src="{{ site.baseurl }}/image/lang.webp" alt="JP/EN"></a>
           {% endfor %}
         {% else %}
-          <a href="{% if page.lang == 'en' %}{{ site.baseurl }}/{% else %}{{ site.baseurl }}/en/{% endif %}index.html"><img src="{{ site.baseurl }}/image/lang.webp" alt="JP/EN"></a>
+          {% if page.lang == 'en' %}
+            <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/image/lang.webp" alt="JP/EN"></a>
+          {% else %}
+            <a href="{{ site.baseurl }}/en/index.html"><img src="{{ site.baseurl }}/image/lang.webp" alt="JP/EN"></a>
+          {% endif %}
         {% endif %}
+      {% else %}
+        {% if page.lang == 'en' %}
+          <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/image/lang.webp" alt="JP/EN"></a>
+        {% else %}
+          <a href="{{ site.baseurl }}/en/index.html"><img src="{{ site.baseurl }}/image/lang.webp" alt="JP/EN"></a>
+        {% endif %}
+      {% endif %}
       </div>
     </div>
     <h1><a href="{% if page.lang == 'en' %}{{ site.baseurl }}/en/{% else %}{{ site.baseurl }}/{% endif %}index.html"><img src="{% if page.lang == 'en' %}{{ site.baseurl }}/image/toptitle_2020.en.webp{% else %}{{ site.baseurl }}/image/toptitle_2020.webp{% endif %}" alt="東京都立大学 システムデザイン学部 情報科学科 / 東京都立大学大学院 システムデザイン研究科 システムデザイン専攻 情報科学域"></a></h1>

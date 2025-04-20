@@ -6,6 +6,8 @@ staff_id: yokoyama
 staff_name: 横山 昌平
 staff_title: 准教授
 staff_image: yokoyama_prof.jpg
+lang: "ja"
+ref: "staff-yokoyama"
 specialties:
 - SNS映えの科学
 - ジオソーシャル測量技術

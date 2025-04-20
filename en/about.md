@@ -3,6 +3,8 @@ layout: default
 title: "About"
 copyright_year: 2020
 lang: "en"
+ref: "about"
+permalink: /en/about.html
 ---
 
 <h1 class="nav1">What's Department of Computer Science?</h1>

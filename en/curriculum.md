@@ -3,6 +3,8 @@ layout: default
 title: "Courses"
 copyright_year: 2020
 lang: "en"
+ref: "curriculum"
+permalink: /en/curriculum.html
 ---
 
 <h1 class="nav3">Courses</h1>

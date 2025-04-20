@@ -3,6 +3,8 @@ layout: default
 title: "Access"
 copyright_year: 2020
 lang: "en"
+ref: "access"
+permalink: /en/access.html
 ---
 
 <h1 class="nav7">Access</h1>

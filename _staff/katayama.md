@@ -6,6 +6,8 @@ staff_id: katayama
 staff_name: 片山 薫
 staff_title: 教授
 staff_image: katayama_prof.jpg
+lang: "ja"
+ref: "staff-katayama"
 specialties:
 - 3次元モデル
 - CAD

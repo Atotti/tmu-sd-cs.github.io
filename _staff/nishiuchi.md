@@ -6,6 +6,8 @@ staff_id: nishiuchi
 staff_name: 西内 信之
 staff_title: 教授
 staff_image: nishiuchi_prof.jpg
+lang: "ja"
+ref: "staff-nishiuchi"
 specialties:
 - ヒューマンインタフェース
 - ユーザビリティ

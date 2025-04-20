@@ -6,6 +6,8 @@ staff_id: nakajima
 staff_name: 中嶋 一貴
 staff_title: 助教
 staff_image: nakajima_prof.jpg
+lang: "ja"
+ref: "staff-nakajima"
 specialties:
 - 計算社会科学
 - ネットワーク科学

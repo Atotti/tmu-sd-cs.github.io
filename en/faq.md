@@ -3,6 +3,8 @@ layout: default
 title: "FAQ"
 copyright_year: 2020
 lang: "en"
+ref: "faq"
+permalink: /en/faq.html
 ---
 
 <h1 class="nav6">FAQ</h1>

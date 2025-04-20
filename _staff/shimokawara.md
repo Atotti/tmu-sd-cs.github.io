@@ -6,6 +6,8 @@ staff_id: shimokawara
 staff_name: 下川原 英理
 staff_title: 准教授
 staff_image: shimokawara_prof.jpg
+lang: "ja"
+ref: "staff-shimokawara"
 specialties:
 - 知的エージェント
 - 知能情報処理によるインタラクション

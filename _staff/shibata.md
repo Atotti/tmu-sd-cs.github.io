@@ -6,6 +6,8 @@ staff_id: shibata
 staff_name: 柴田 祐樹
 staff_title: 助教
 staff_image: shibata_prof.jpg
+lang: "ja"
+ref: "staff-shibata"
 specialties:
 - データマイニング
 - 情報推薦

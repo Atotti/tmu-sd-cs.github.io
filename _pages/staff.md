@@ -2,6 +2,7 @@
 layout: default
 title: "教員紹介"
 copyright_year: 2020
+ref: "staff"
 ---
 
 <h1 class="nav2">教員紹介</h1>
