@@ -491,11 +491,6 @@ a[target="_blank"] {
 	padding-right: 22px;
 	background-size: 18px 17px;
 }
-a[href$=".pdf"] {
-	background: url(../image/ic_pdf.webp) right no-repeat;
-	padding-right: 24px;
-	background-size: 20px 20px;
-}
 a[href$=".doc"], a[href$=".docx"] {
 	background: url(../image/ic_doc.webp) right no-repeat;
 	padding-right: 24px;
