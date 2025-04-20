@@ -10,93 +10,55 @@ default_language: "ja"
 
 # Collections
 collections:
-  ja_news:
+  pages:
     output: true
-    permalink: /news/:name.html
-  en_news:
-    output: true
-    permalink: /en/news/:name.html
-  ja_staff:
+    permalink: /:name.html
+  staff:
     output: true
     permalink: /staff/:name.html
   en_staff:
     output: true
     permalink: /en/staff/:name.html
+  news:
+    output: false
+    sort_by: date
+  en_news:
+    output: false
+    sort_by: date
 
 # Defaults
 defaults:
-  # 日本語コンテンツ
   - scope:
-      path: "ja/pages"
-    values:
-      layout: "default"
-      lang: "ja"
-      permalink: /:basename.html
-  - scope:
-      path: "ja"
+      path: ""
       type: "pages"
     values:
       layout: "default"
       lang: "ja"
-      permalink: /:name.html
-  - scope:
-      path: "ja/news"
-    values:
-      layout: "default"
-      lang: "ja"
-  - scope:
-      path: "ja/staff"
-    values:
-      layout: "staff_member"
-      lang: "ja"
-      permalink: /staff/:basename.html
-  - scope:
-      path: ""
-      type: "ja_news"
-    values:
-      layout: "default"
-      lang: "ja"
-  - scope:
-      path: ""
-      type: "ja_staff"
-    values:
-      layout: "staff_member"
-      lang: "ja"
-
-  # 英語コンテンツ
-  - scope:
-      path: "en/pages"
-    values:
-      layout: "default"
-      lang: "en"
-      permalink: /en/:basename.html
   - scope:
       path: "en"
       type: "pages"
     values:
       layout: "default"
       lang: "en"
-      permalink: /en/:name.html
-  - scope:
-      path: "en/news"
-    values:
-      layout: "default"
-      lang: "en"
-  - scope:
-      path: "en/staff"
-    values:
-      layout: "staff_member"
-      lang: "en"
-      permalink: /en/staff/:basename.html
   - scope:
       path: ""
-      type: "en_news"
+      type: "staff"
     values:
-      layout: "default"
-      lang: "en"
+      layout: "staff_member"
+      lang: "ja"
   - scope:
       path: ""
       type: "en_staff"
     values:
       layout: "staff_member"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      lang: "ja"
+  - scope:
+      path: ""
+      type: "en_news"
+    values:
       lang: "en"

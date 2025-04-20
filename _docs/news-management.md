@@ -8,8 +8,8 @@ News & Topics は、個別のマークダウンファイルとして管理され
 
 ## ディレクトリ構造
 
-- `ja/news/` - 日本語のニュースアイテムを格納するディレクトリ
-- `en/news/` - 英語のニュースアイテムを格納するディレクトリ
+- `_news/` - 日本語のニュースアイテムを格納するディレクトリ
+- `_en_news/` - 英語のニュースアイテムを格納するディレクトリ
 
 ## 新しいニュースアイテムの追加方法
 
@@ -52,26 +52,10 @@ date: 2025-05-01
 
 重要なニュースについては、日本語版と英語版の両方を作成してください。
 
-- 日本語版: `ja/news/YYYY-MM-DD-title-slug.md`
-- 英語版: `en/news/YYYY-MM-DD-title-slug.md`
+- 日本語版: `_news/YYYY-MM-DD-title-slug.md`
+- 英語版: `_en_news/YYYY-MM-DD-title-slug.md`
 
 ファイル名は同じにして、内容を各言語に合わせて作成してください。
-
-### 4. フロントマターの設定
-
-各ニュースファイルのフロントマターには、以下の項目を設定してください：
-
-```markdown
----
-title: "ニュースのタイトル"
-date: YYYY-MM-DD
-lang: "ja"  # 日本語の場合は "ja"、英語の場合は "en"
-permalink: /news/YYYY-MM-DD-title-slug.html  # 日本語の場合
-# permalink: /en/news/YYYY-MM-DD-title-slug.html  # 英語の場合
----
-```
-
-パーマリンクは言語ごとに適切に設定してください。
 
 ## 表示順序
 
